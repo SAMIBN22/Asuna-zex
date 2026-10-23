@@ -1,0 +1,33 @@
+{
+  "name": "kraken-elite",
+  "version": "1.0.0",
+  "main": "main.js",
+  "type": "module",
+  "engines": {
+    "node": ">=20.0.0"
+  },
+  "scripts": {
+    "start": "node main.js",
+    "deploy": "node deploy-commands.js",
+    "dev": "node main.js"
+  },
+  "dependencies": {
+    "@discordjs/voice": "^0.18.0",
+    "@discordjs/ws": "^1.2.3",
+    "@napi-rs/canvas": "^0.1.100",
+    "chokidar": "^5.0.0",
+    "discord.js": "^14.27.0",
+    "dotenv": "^16.6.1",
+    "ffmpeg-static": "^5.3.0",
+    "gif-encoder-2": "^1.0.5",
+    "gifuct-js": "^2.1.2",
+    "jimp": "^1.6.1",
+    "libsodium-wrappers": "^0.8.4",
+    "mongoose": "^8.24.3",
+    "node-fetch": "^3.3.2",
+    "opusscript": "^0.1.1",
+    "riffy": "^2.0.0-beta.5",
+    "riffy-spotify": "^1.0.2",
+    "ws": "^8.21.3"
+  }
+}
